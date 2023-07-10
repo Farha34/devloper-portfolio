@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -21,13 +22,35 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-    margin: 5px 30px ;
+    margin: 5px 30px;
 
 }
-.button-primary:hover{
+
+.button-primary:hover {
     color: black;
     cursor: pointer;
 }
+
+.section-title {
+    color: #181818;
+    text-align: center;
+   
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-description {
+    color: #514b4b;
+    text-align: center;
+   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* nav relatted style */
 nav {
     display: flex;
@@ -51,7 +74,7 @@ nav ul {
 nav li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
 
 nav a {
@@ -60,39 +83,66 @@ nav a {
 }
 
 /* header related style */
-.header{
-  background-color: rgb(237, 226, 213);
-  background-image: url(./images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-   
+.header {
+    background-color: rgb(237, 226, 213);
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
-    max-width: 500px ;
+
+.banner-content {
+    max-width: 500px;
 }
-.profile-picture{
+
+.profile-picture {
     width: 500px;
     height: 600px;
 
 }
 
-.banner-greeting{
+.banner-greeting {
     font-size: 24px;
     margin-bottom: 0px;
 }
-.banner-heading{
+
+.banner-heading {
     font-size: 85px;
     width: 700px;
     margin-top: 4px;
     margin-bottom: 20px;
 }
-.banner-dis{
+
+.banner-dis {
     font-size: 20px;
     margin-top: 0px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: rgba(215, 203, 186, 0.927);
+    margin-top: 130px ;
+    
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
