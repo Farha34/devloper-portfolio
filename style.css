@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -17,11 +21,13 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-
-
+    margin: 5px 30px ;
 
 }
-
+.button-primary:hover{
+    color: black;
+    cursor: pointer;
+}
 /* nav relatted style */
 nav {
     display: flex;
@@ -55,13 +61,38 @@ nav a {
 
 /* header related style */
 .header{
-    background-color:  #efe2d7;;
+  background-color: rgb(237, 226, 213);
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+   
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px ;
 }
 .profile-picture{
     width: 500px;
+    height: 600px;
+
+}
+
+.banner-greeting{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.banner-heading{
+    font-size: 85px;
+    width: 700px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+.banner-dis{
+    font-size: 20px;
+    margin-top: 0px;
 }
